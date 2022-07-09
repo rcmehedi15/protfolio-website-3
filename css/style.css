@@ -1,0 +1,346 @@
+body,html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+
+/* menu section */
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.logo{
+    width: 270px;
+    float: left;
+    
+}
+.logo img{
+    width: 60%;
+   padding-top: 20px;
+}
+.menu{
+    width: 900px;
+    float: left;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    padding: 0 15px;
+    line-height: 80px;
+    text-transform: uppercase;
+    color: #11A651;
+    font-weight: 400;
+}
+.menu ul li a:hover{
+   
+    color: #ffffff;
+    padding: 10px ;
+    background-color: #324239;
+    transition: all linear .3s;
+    
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    color: #282e2b;
+    font-size: 40px;
+    line-height: 40px;
+}
+h3{
+    color: #11A651;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: normal;
+}
+span{
+    
+    line-height: 60px;
+}
+p{
+    font-size: 18px;
+    color: #423F3E;
+    line-height: 20px;
+    
+    
+}
+.name-color{
+    color:#11A651;
+}
+.left{
+    margin-top: 88px;
+    width: 31%;
+    float: left;
+    margin-left: 13%;
+    
+}
+.left img{
+    width: 100%;
+}
+
+
+.link-btn{
+    line-height: 60px;
+    text-decoration: none;
+    background-color:#11A651;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    
+}
+.link-btn:hover{
+    background-color: rgb(234, 58, 58);
+    color: white;
+    transition: 0.5s;
+}
+
+/* About section */
+
+#about{
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+.about-img{
+    width: 400px;
+    float: left;
+    margin-left: 26px;
+    border: 2px solid #d4d4d4;
+    text-align: center;
+}
+.about-img img{
+    width: 80%;
+    text-align: center;
+}
+.clr{
+    clear: both;
+}
+.about-text{
+    width: 700px;
+    float: left;
+    margin-left: 30px;
+    
+    text-align: justify;
+}
+.smabout{
+    font-weight: 400;
+}
+.know{
+    font-size: 20px;
+    
+}
+.link-btn2{
+    line-height: 60px;
+    text-decoration: none;
+    background-color:#11A651;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+   
+    
+}
+.link-btn2:hover{
+    background-color: rgb(234, 58, 58);
+    color: white;
+    transition: 0.5s;
+}
+
+/* protfolio section*/
+
+#protfolio{
+    padding-bottom: 30px;
+}
+.head{
+        text-align: center;
+        margin-left:25px;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+}
+.protfolio-item{
+    text-align: center;
+    margin-left:25px;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+    border: 2px solid #d4d4d4;;
+}
+.protfolio-item h3{
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.protfolio-item p{
+    text-align: justify;
+    word-spacing: normal;
+   
+}
+.protfolio-item img{
+    width: 80%;
+}
+
+/* Team Section */
+
+.team-main{
+    width: 1170px;
+}
+.team-profile{
+    
+    width: 260px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 22px;
+    background-color: #f1f1f1;
+    
+}
+.team-profile img{
+    padding-top: 20px;
+   
+}
+.team-profile h3{
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+   
+}
+.team-profile p{
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+.social{
+    padding-top: 5px;
+    padding-bottom: 15px;
+
+}
+.social i{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #11A651;
+    border-radius: 50px;
+}
+
+/* Contact section */
+
+#contact{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.field{
+        width: 539px;
+    margin-right: 9px;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 29px;
+
+}
+.field input{
+    width: 100%;
+    padding: 0 15px;
+    height: 40px;
+    border: 1px solid #666;
+}
+.field input::placeholder{
+    font-size: 18px;
+    color: #666;
+    font-weight: 400;
+    text-transform: capitalize ;
+}
+
+.textarea{
+    width: 1150px;
+}
+.textarea textarea{
+    margin-left: 25px;
+    width: 97%;
+    padding-left: 10px;
+    height: 200px;
+    padding-top: 10px;
+    font-size: 18px;
+
+}
+.textarea input::placeholder{
+    font-size: 18px;
+    color: #666;
+    font-weight: 400;
+    text-transform: capitalize ;
+}
+.btn{
+    margin-top: 15px;
+    margin-left: 25px;
+    text-align: center;
+}
+.btn button{
+    
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #11A651;
+    padding: 10px 30px;
+    border:0;
+    border-radius: 5px;
+}
+.btn button:hover{
+    
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(234, 58, 58);
+    padding: 10px 30px;
+    border:0;
+    border-radius: 5px;
+}
+iframe{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+/* footer section */
+
+footer p{
+    text-align: center;
+    color:#666;
+    margin: 0 10 ;
+    padding-bottom: 25px;
+
+}
+footer a{
+    text-decoration: none;
+    color: #11A651;
+}
+.back-to-top{
+    position: fixed;
+    bottom: 25px;
+    right: 40px;
+    z-index: 999 ;
+    display: none;
+}
+.back-to-top i{
+    width: 40px;
+    height: 40px;
+    background-color: #11A651;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+
+}
